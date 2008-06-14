@@ -13,6 +13,7 @@ class View <  OSX::NSView
   attr_accessor :selected, :delegate
   alias_method :selected?, :selected
 
+  # TODO - what's this do?
   def copyWithZone(zone)
     viewCopy = View.allocWithZone(zone).initWithFrame(frame)
     viewCopy.delegate = delegate
