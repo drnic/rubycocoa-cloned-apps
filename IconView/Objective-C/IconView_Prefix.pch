@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'IconView' target in the 'IconView' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
